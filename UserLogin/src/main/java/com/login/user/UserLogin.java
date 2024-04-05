@@ -19,7 +19,7 @@ public class UserLogin extends HttpServlet{
 			String name=req.getParameter("uname");
 		
 			
-			if(name.equals("sanj"))
+			if(name.equalsIgnoreCase("Darshan"))
 			{
 					RequestDispatcher rd =req.getRequestDispatcher("/index1.jsp");
 					rd.forward(req, resp);
