@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+--primary-color:#0ea5e9;
+--primary-color-dark:#0284c7;
+--text-light: black;
+}
+
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{
+	background:url("images1.jpg");
+	font-family:"Roboto" , sans-serif;
+}
+
+nav{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	padding: 2rem 5rem;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+nav ul{
+	display:flex;
+	gap:3rem;
+	list-style:none;
+}
+nav ul li a{
+	text-decoration :none;
+	color: var(--text-light);
+	font-size:1.2rem;
+	font-weight: 500;
+	transition: 0.3s;
+}
+nav ul li a:hover{
+	color: var(--primary-color-dark);
+}		
+
+.content{
+	width:500px;
+	margin:8% auto;
+	padding:50px 0;
+	text-align: center;
+	color: var(--text-light);
+}	
+.content h1{
+	font-family:"Sedgwick Ave Display" , cursive;
+	font-size: 7rem;
+	
+} 
+.content h1 span{
+	
+	font-size: 5rem;
+	
+}
+.content h3{
+	font-family: "Alkatra",cursive;
+}	
+	
+	
+	
